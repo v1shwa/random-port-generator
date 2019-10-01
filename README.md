@@ -1,8 +1,9 @@
 # Random port generator
 Simple bash script to help you choose a free port on your server
 
-### Usage
+## Usage
 
+#### To get a random free port 
 - **Option 1**: Just run this one-liner to quickly get a free random port.
             
         curl -sSL https://git.io/v7Hch | bash
@@ -12,6 +13,9 @@ Simple bash script to help you choose a free port on your server
 
         bash generate.sh
 
-
-### License
+#### To check the status of desired port
+        
+        bash status.sh <port_number>
+    
+## License
 [The MIT License](./LICENSE)
